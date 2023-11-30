@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;500;600;700&family=Raleway:ital,wght@0,300;0,400;0,600;0,700;0,800;1,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;500;600;700&family=Raleway:ital,wght@0,300;0,400;0,600;0,700;0,800;1,400&family=Work+Sans:wght@100;200;300;400;500;600;700&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -28,7 +28,7 @@
 
 .top-s h1 {
   padding: 120px 0 0 0;
-  font-size: 66px;
+  font-size: 60px;
   text-align: center;
   letter-spacing: -2.5px;
   font-weight: 600;
@@ -71,7 +71,7 @@ footer {
   gap: 16px;
   flex-wrap: wrap;
   justify-content: center;
-  padding: 12px 24px 0 24px;
+  padding: 12px 0 0 0;
 }
 
 .projects h3,
@@ -80,6 +80,10 @@ footer h4,
   font-size: 32px;
   font-weight: 400;
   letter-spacing: -1px;
+}
+
+.about-me p {
+  text-align: center;
 }
 
 .projects h3 {
@@ -101,6 +105,7 @@ footer h4,
 .proj-title-wrapper h4 {
   flex: 1;
   font-size: 18px;
+  font-weight: 600;
 }
 
 .proj-img {
@@ -168,10 +173,6 @@ footer p {
   .hidden {
     transition: none;
   }
-}
-
-.proj-title-wrapper h4 {
-  font-weight: 600;
 }
 
 .hidden {
