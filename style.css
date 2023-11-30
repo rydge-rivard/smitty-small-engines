@@ -5,16 +5,16 @@
   font-family: "Raleway", sans-serif;
   box-sizing: border-box;
   list-style: none;
-  color: #332424;
+  color: #292625;
 }
 
 .headshot img {
-  width: 100%;
+  width: 60%;
   border-radius: 12px;
 }
 
 .headshot {
-  margin: 120px 60px 60px;
+  margin: 120px 0 60px;
 }
 
 .top-s {
@@ -160,7 +160,7 @@ footer p {
 
 @media (min-width: 850px) {
   .headshot img {
-    width: 50%;
+    /* width: 50%; */
     max-width: 1400px;
   }
   .headshot picture {
@@ -171,6 +171,9 @@ footer p {
 
 @media (prefers-reduced-motion) {
   .hidden {
+    transition: none;
+  }
+  .bike {
     transition: none;
   }
 }
@@ -210,4 +213,16 @@ footer p {
 
 .icon:nth-child(7) {
   transition-delay: 600ms;
+}
+
+button {
+  padding: 10px 16px;
+  border: none;
+  background-color: rgb(213, 61, 61);
+  color: white;
+  border-radius: 18px;
+}
+
+.bike {
+  transform: translateX(-100px);
 }
